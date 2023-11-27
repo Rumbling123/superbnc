@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playball&family=Roboto+Slab:wght@200;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+body{
+	font-family: 'Great Vibes', cursive;;font-size: 16px; color: #666666;margin: 0
+}
+header{
+	width: 100%;height: 70px;border-bottom: 1px solid darkred
+}
+.banner{
+	width: 100%;min-height: 500px;
+}
+aside{
+	width: 100%;min-height: 500px;
+}
+main{
+	width: 100%;min-height: 500px;
+}
+footer{
+	width: 100%;min-height: 100px;background-color: #C7C6C6}
+.logo{
+	padding-top: 8px
+}
+.menu{
+	padding-top: 25px
+}
+.menu ul{
+	margin: 0;padding: 0;list-style: none;display: flex
+}
+.menu ul li a{
+	padding: 10px 20px;text-decoration: none;font-size: 17px;color: #252323;text-transform: uppercase;border-radius: 20px
+}
+.menu ul li a:hover{
+	background-color: darkred;color: antiquewhite;
+}
+
+#slider .owl-dots{ position:absolute; bottom: 10px; left:48%;}
+#slider .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 
+}
+#slider .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slider .owl-nav [class*='owl-'] {
+	font-size:60px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+}
+
+#slider .owl-nav .owl-next{ position:absolute; right:5%;}
+#slider .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slider .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:yellow;
+      text-decoration: none; }
+.text-do{
+	color: darkred
+}
+aside ul{
+	margin: 0;padding: 0; list-style: none; display: flex;flex-direction: column
+}
+aside ul li{
+	border-bottom: 1px solid 
+}
+aside ul li a{
+	text-decoration: none;padding: 10px;display: block;color: #666666
+}
+aside ul li a:hover{
+	color: white;background-color: #000000
+}
+aside li{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif" 
+}
+.text-den{
+	color: black;font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+.text-center{
+	text-align: center
+}
+.nen-den{
+	background-color: #7BFFF8;text-align: center
+}
+footer a{
+	color: #3E3D3D
+}
+footer a:hover{
+	color: darkred
+}
+footer ul{
+	margin: 0;padding: 0;list-style: none;display: flex;flex-direction: column
+}
+footer ul li a{
+	text-decoration: none;display: block;padding: 10px
+}
+footer{
+	width: 100%;min-height: 300px
+}
